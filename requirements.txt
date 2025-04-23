@@ -1,4 +1,6 @@
-SpeechRecognition
-pyttsx3
+speechrecognition
+pyaudio
 fuzzywuzzy
 python-Levenshtein
+requests
+playsound==1.2.2

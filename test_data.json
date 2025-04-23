@@ -1,0 +1,100 @@
+{
+    "company": {
+        "name": "TechNova Solutions",
+        "website": "https://technova.io",
+        "location": "123 Silicon Valley Blvd, San Jose, CA, USA",
+        "contact_email": "info@technova.io",
+        "description": "TechNova Solutions delivers future-ready digital products and custom enterprise software solutions to businesses worldwide.",
+        "social_media": {
+            "LinkedIn": "https://www.linkedin.com/company/technova-solutions",
+            "Facebook": "https://facebook.com/technova.io",
+            "Twitter": "https://twitter.com/technova_io",
+            "Instagram": "https://instagram.com/technova.io"
+        },
+        "sections": [
+            "Home", "Solutions", "Portfolio", "Company", "Blog", "Careers", "Contact"
+        ],
+        "offerings": {
+            "free_consultation": true,
+            "career_opportunities": true
+        }
+    },
+    "products": [
+        {
+            "name": "NovaCRM",
+            "description": "A robust customer relationship management platform tailored for small and medium businesses.",
+            "use_case": "Sales and customer engagement"
+        },
+        {
+            "name": "FleetMaster",
+            "description": "Advanced fleet and asset tracking system for logistics and delivery services.",
+            "use_case": "Fleet management and logistics"
+        },
+        {
+            "name": "HealthBridge",
+            "description": "Telemedicine and clinic management suite for modern healthcare providers.",
+            "use_case": "Healthcare and telemedicine"
+        }
+    ],
+    "services": {
+        "general": "Innovative tech services and solutions for your business challenges",
+        "specific": [
+            "Enterprise software development",
+            "AI & ML solutions",
+            "Cloud architecture and DevOps",
+            "IoT & embedded systems",
+            "UX/UI Design"
+        ]
+    },
+    "custom_solutions": {
+        "description": "We create tailored solutions that align perfectly with your business workflows.",
+        "development_process": [
+            "Discovery & Research",
+            "Wireframing & UI/UX",
+            "Agile Development",
+            "Quality Assurance",
+            "Deployment & DevOps",
+            "Ongoing Support"
+        ],
+        "technologies": {
+            "frontend": ["React", "Svelte", "Next.js"],
+            "backend": ["Node.js", "Django", "Golang"],
+            "database": ["Firebase", "MySQL", "MongoDB"],
+            "cloud": ["AWS", "Azure", "Heroku"]
+        },
+        "industries_served": [
+            "Healthcare", "Logistics", "Retail", "Real Estate", "Fintech"
+        ],
+        "engagement_models": [
+            {
+                "name": "Fixed Scope",
+                "description": "Ideal for well-defined project goals with fixed timelines."
+            },
+            {
+                "name": "Agile Sprints",
+                "description": "Best for evolving products needing iterative development."
+            },
+            {
+                "name": "Team Augmentation",
+                "description": "Hire our experts to join your in-house dev team."
+            }
+        ]
+    },
+    "response_templates": {
+        "greeting": "Hey there! I'm NovaBot — how can I assist you today?",
+        "company_intro": "We're TechNova Solutions — creating digital experiences that fuel global business transformation.",
+        "contact": "Drop us a message at {contact_email} or come visit us at {location}.",
+        "product_info": "{product_name}: {description}",
+        "link_provided": "Sure, here's the {platform} link: {url}",
+        "link_not_found": "Sorry, we currently don’t have a {platform} link available. You can try searching for it on Google or another platform.",
+        "email_response": "You can reach us via email at {contact_email}.",
+        "email_not_found": "Apologies, we don’t have an email address listed at the moment.",
+        "website_response": "Visit our website at {website}.",
+        "website_not_found": "Looks like we don’t have a website link to share right now.",
+        "response_styles": {
+            "brief": "In a nutshell: {key_points}",
+            "detailed": "Sure, here's more about {topic}: {explanation}",
+            "technical": "Here are the technical details: {specs}"
+        }
+    }
+}
